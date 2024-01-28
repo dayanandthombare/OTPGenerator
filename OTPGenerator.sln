@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34408.163
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OTPGenerator.Server", "OTPGenerator.Server\OTPGenerator.Server.csproj", "{AE558F37-051E-4ECF-8182-0A228C37DBF4}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "otpgenerator.client", "otpgenerator.client\otpgenerator.client.esproj", "{8546F7AB-2617-468D-AA62-D081EFFB17E4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OTPGeneratorTest", "OTPGeneratorTest\OTPGeneratorTest.csproj", "{CE476F64-85C1-4935-B26E-392204214280}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OTPGenerator.BusinessDomain", "OTPGenerator.BusinessDomain\OTPGenerator.BusinessDomain.csproj", "{75A3D809-0219-4F48-BB6D-249EA1F17C3E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AE558F37-051E-4ECF-8182-0A228C37DBF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE558F37-051E-4ECF-8182-0A228C37DBF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE558F37-051E-4ECF-8182-0A228C37DBF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE558F37-051E-4ECF-8182-0A228C37DBF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8546F7AB-2617-468D-AA62-D081EFFB17E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8546F7AB-2617-468D-AA62-D081EFFB17E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8546F7AB-2617-468D-AA62-D081EFFB17E4}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{8546F7AB-2617-468D-AA62-D081EFFB17E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8546F7AB-2617-468D-AA62-D081EFFB17E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8546F7AB-2617-468D-AA62-D081EFFB17E4}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{CE476F64-85C1-4935-B26E-392204214280}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE476F64-85C1-4935-B26E-392204214280}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE476F64-85C1-4935-B26E-392204214280}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE476F64-85C1-4935-B26E-392204214280}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75A3D809-0219-4F48-BB6D-249EA1F17C3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75A3D809-0219-4F48-BB6D-249EA1F17C3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75A3D809-0219-4F48-BB6D-249EA1F17C3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75A3D809-0219-4F48-BB6D-249EA1F17C3E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7AA4B402-E95B-464B-A237-268AF43EEEBC}
+	EndGlobalSection
+EndGlobal

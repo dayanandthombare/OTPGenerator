@@ -1,0 +1,6 @@
+@OTPGenerator.Server_HostAddress = http://localhost:5107
+
+GET {{OTPGenerator.Server_HostAddress}}/Otp/
+Accept: application/json
+
+###
